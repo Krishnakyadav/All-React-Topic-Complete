@@ -14,8 +14,8 @@ import NewCounter from "./AllTopic/10_practices/NewCounter";
 import TodoApp from "./AllTopic/Task1/Context/TodoApp";
 import TodoContextProvider from "./AllTopic/Task1/Context/TodoContextProvider";
 import TodoWrapper from "./TodoWrapper";
-// import Employees from "./Employees/Employees"
-import Employees from "./AllTopic/10_practices/Employees"
+import Employees from "./Employees/Employees"
+// import Employees from "./AllTopic/10_practices/Employees"
 
 // import "./App.css"
 import BiggerParent from "./AllTopic/10_practices/Employees";
@@ -28,7 +28,10 @@ import UseEffect from "./AllTopic/12_UseEffect/UseEffect";
 import ApiFetching from "./AllTopic/12_UseEffect/ApiFetching";
 import UserList from "./AllTopic/11_productList/UserList"
 import Router1 from "./AllTopic/13_Routing/Router1";
+import UseRef from "./AllTopic/15_useRef/UseRef";
+import DataFetctAxiso from "./AllTopic/16_Axios/DataFetctAxiso";
 
+import Employees1 from "./AllTopic/10_practices/Employees1"
 
 
 const App = () => {
@@ -66,6 +69,9 @@ const App = () => {
      {/* <ApiFetching/> */}
      {/* <UserList/> */}
     <Router1/>
+    {/* <UseRef/> */}
+    {/* <DataFetctAxiso/> */}
+    {/* <Employees1/> */}
     </>
   );
 };

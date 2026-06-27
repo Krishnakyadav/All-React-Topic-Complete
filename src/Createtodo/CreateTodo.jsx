@@ -10,6 +10,7 @@ const CreateTodo = ({ todo, setTodo, handleCreateTodo }) => {
         onChange={(e) => setTodo(e.target.value)}
       />
       <button type="submit">Add</button>
+      
     </form>
   );
 };
